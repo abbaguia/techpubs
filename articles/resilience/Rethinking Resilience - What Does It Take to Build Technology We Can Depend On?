@@ -4,7 +4,7 @@ subtitle: "From rapid innovation to lasting reliability."
 author: "Mahamat Hissein GUIAGOUSSOU"
 role: "Developer Community Leader & Senior Cloud and AI Architect"
 date: "2026-11-17"
-canonical_url: "https://<your-username>.github.io/<your-repo>/articles/rethinking-resilience/"
+canonical_url: "https://<your-username>.github.io/techpubs/articles/resilience/"
 image: "/assets/images/rethinking-resilience-header.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
