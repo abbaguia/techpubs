@@ -12,7 +12,7 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 ![Rethinking Resilience Header Banner](../../Rethinking_Resilience_Header_Infographic.jpg)
 
 # Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?
-### *From rapid innovation to lasting reliability.*
+### *From rapid innovation to lasting reliability. *
 
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
 
