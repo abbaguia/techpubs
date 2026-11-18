@@ -9,7 +9,7 @@ image: "/assets/images/rethinking-resilience-header.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
 
-![Rethinking Resilience Header Banner](../../assets/images/rethinking-resilience-header.jpg)
+![Rethinking Resilience Header Banner](../../assets/images/Rethinking_Resilience_Header_Infographic.jpg)
 
 
 # Rethinking Resilience: What Does It Really Take to Build Technology We Can Depend On?
