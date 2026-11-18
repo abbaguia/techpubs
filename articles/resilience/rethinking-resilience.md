@@ -1,8 +1,4 @@
 ---
-
-![Rethinking Resilience Header Banner](../../assets/images/rethinking-resilience-header.jpg)
-
----
 title: "Rethinking Resilience: What Does It Really Take to Build Technology We Can Depend On?"
 subtitle: "From rapid innovation to lasting reliability."
 author: "Mahamat Hissein GUIAGOUSSOU"
@@ -12,6 +8,9 @@ canonical_url: "https://abbaguia.github.io/techpubs/articles/resilience/"
 image: "/assets/images/rethinking-resilience-header.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
+
+![Rethinking Resilience Header Banner](../../assets/images/rethinking-resilience-header.jpg)
+
 
 # Rethinking Resilience: What Does It Really Take to Build Technology We Can Depend On?
 ### *From rapid innovation to lasting reliability.*
