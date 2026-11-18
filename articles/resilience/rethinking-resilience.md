@@ -1,18 +1,17 @@
 ---
-title: "Rethinking Resilience: What Does It Really Take to Build Technology We Can Depend On?"
+title: "Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?"
 subtitle: "From rapid innovation to lasting reliability."
 author: "Mahamat Hissein GUIAGOUSSOU"
 role: "Developer Community Leader & Senior Cloud and AI Architect"
 date: "2026-11-17"
 canonical_url: "https://abbaguia.github.io/techpubs/articles/resilience/"
-image: "/assets/images/Rethinking_Resilience_Header_Infographic.jpg"
+image: "/assets/images/rethinking-resilience-header.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
 
-![Rethinking Resilience Header Banner](../../assets/images/Rethinking_Resilience_Header_Infographic.jpg)
+![Rethinking Resilience Header Banner](../../assets/images/rethinking-resilience-header.jpg)
 
-
-# Rethinking Resilience: What Does It Really Take to Build Technology We Can Depend On?
+# Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?
 ### *From rapid innovation to lasting reliability.*
 
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
@@ -63,7 +62,7 @@ A few years earlier, during my first startup experience, I was working as a cust
 
 I remember how our field team spent weeks configuring two Sun servers in a data center for the customer to test. One hosted the database and the other the application. We had even named the servers after our daughters.
 
-As we were preparing to leave for the airport after a successful proof of concept (PoC), I turned the physical key on the front of one of the Sun servers, thinking I was locking and securing it. Instead, I powered the system down.
+As we were preparing to leave for the airport after a successful PoC (Proof of Concept), I turned the physical key on the front of one of the Sun servers, thinking I was locking and securing it. Instead, I powered the system down.
 
 We scrambled to bring the environment back online. My colleague was understandably worried about missing his flight, and we barely made it to the airport. Fortunately, this was an isolated trial and quality-assurance environment, so no end-user services were affected.
 
@@ -119,4 +118,112 @@ The incident affected organizations and users worldwide, disrupting access to em
 
 ### FAA: When Critical Communications Infrastructure Becomes Unstable
 
-The next day, on November 13, 2026, the Federal Aviation Administration issued a nationwide ground stop for departures at U.S. airports following instability in telecommunications systems supporting air traffic control. The FAA’s preliminary investigation examined excessive traffic entering its telecommunications network during work to transition legacy copper connections to fiber. Officials identified a recently deployed router at a remote communications facility as one possible source of the traffic. Investigators had not established a final root cause at the time of this article’s preparation. The FAA reported instability at 17 of its 22 Air Route
+The next day, on November 13, 2026, the Federal Aviation Administration issued a nationwide ground stop for departures at U.S. airports following instability in telecommunications systems supporting air traffic control. The FAA’s preliminary investigation examined excessive traffic entering its telecommunications network during work to transition legacy copper connections to fiber. Officials identified a recently deployed router at a remote communications facility as one possible source of the traffic. Investigators had not established a final root cause at the time of this article’s preparation. The FAA reported instability at 17 of its 22 Air Route Traffic Control Centers. The nationwide ground stop was a precautionary safety measure to protect aircraft and passengers while the affected infrastructure was investigated and stabilized.
+
+This was not a complete loss of radar or radio communications. Aircraft already in the air landed safely, while more than 3,500 flights were grounded during the disruption. The departure restrictions were subsequently lifted.
+
+The incident demonstrated how instability in telecommunications infrastructure can affect critical operations across a national transportation system, even when some communications and safety procedures remain operational.
+
+### Financial Services: When a Transaction Problem Spills Across Institutions
+
+On November 16, 2026, customers reported difficulties accessing online banking services at several major U.S. financial institutions. JPMorgan Chase confirmed that a software bug in its on-premises hardware systems was slowing some transaction processing.
+
+The bank said customers could still access their accounts and funds. It also explained that other financial institutions could experience delays when processing transactions involving JPMorgan. The bank confirmed that its own systems were not directly affected, although some payments involving other institutions could be delayed.
+
+This incident illustrates how a technical problem within one institution can affect transaction flows beyond its own infrastructure. In interconnected financial services, the reliability of a transaction can depend on several organizations and systems working together.
+
+### AI Infrastructure: When Demand Outruns Capacity
+
+A global resilience challenge is emerging across the artificial intelligence industry: the ability to provide enough computing capacity to meet rapidly increasing demand.
+
+Hyperscalers and AI operators are investing heavily in new data centers, advanced processors, networking, storage, and power infrastructure. Their ability to expand, however, is constrained by more than financial investment or the availability of computing equipment.
+
+Access to electricity, grid connections, cooling systems, specialized chips, construction resources, and regulatory approvals can all delay the deployment of new capacity.
+
+There is also a growing public and political dimension. While technology companies and policymakers emphasize the importance of expanding AI infrastructure to maintain competitiveness and support innovation, many communities are pushing back against new data center projects.
+
+Concerns include electricity costs, water consumption, land use, environmental impact, and the broader economic and employment implications of artificial intelligence. Public opposition can influence local permitting decisions and the political environment surrounding data center construction.
+
+The result is a difficult balance: demand for AI computing continues to grow, while the infrastructure required to support that demand cannot always be expanded at the same pace.
+
+This is not simply a future concern. AI providers have already reported periods of constrained computing capacity, slower service, and degraded performance. In a March 2026 incident, Anthropic disclosed that a rapid increase in usage demand, combined with compute constraints in parts of its infrastructure, contributed to a service outage and periods of degraded performance.
+
+A service does not necessarily need to go completely offline to fail its users. When it cannot provide the capacity, response time, or availability that customers expect, it may effectively fail to meet its service requirements.
+
+This is another dimension of resilience: designing systems not only to withstand component failures, but also to operate reliably when demand grows faster than the infrastructure supporting them.
+
+### A Systemic Pattern Across Every Industry
+
+Taken together, these examples show that resilience challenges span cloud productivity platforms, national aviation communications, financial services, and AI infrastructure.
+
+The causes differ, but the engineering questions are familiar: Where are the dependencies? How far can a failure spread? What capacity remains? Can essential services continue operating, and how quickly can they recover?
+
+A problem in one component, organization, or infrastructure layer can affect services and people far beyond its starting point.
+
+These questions must be addressed when systems are designed, not only after an incident occurs.
+
+## The Questions We Must Ask
+
+Building resilient systems starts with asking better questions before implementation:
+
+* What must continue working when something fails?
+* Which components and dependencies can become unavailable?
+* What happens when demand exceeds expectations?
+* Can the system operate in a degraded state?
+* How will failures be detected, contained, and recovered from?
+* How much performance degradation, data loss, or service interruption can the business tolerate?
+* What operational safeguards can prevent human error from becoming a service failure?
+* Can the organization sustain the infrastructure, investment, and operational support required over time?
+
+These questions influence architecture, technology choices, deployment, testing, operations, and business decisions.
+
+They also reveal trade-offs. More redundancy can increase cost. Replication can support availability and recovery, but requires additional storage and operational coordination. A design that protects against one type of failure may remain vulnerable to another.
+
+There is no universal architecture that makes every system resilient. The right design depends on what the service must protect, the failures it must tolerate, the demand it must support, and the recovery it must deliver.
+
+## From WHAT and WHY to HOW
+
+This article has focused on what resilience means and why it matters. The next article will move from these principles to a practical engineering approach.
+
+**Engineering Resilience: A Seven-Step Framework for Designing Dependable Systems**
+
+The framework will organize established engineering practices into seven connected steps:
+
+1. Understand the service and its resilience requirements.
+2. Identify dependencies and failure domains.
+3. Design for redundancy and fault tolerance.
+4. Protect data and ensure recoverability.
+5. Build capacity and handle unexpected demand.
+6. Detect, respond, reconstruct, and recover.
+7. Validate, test, and continuously improve.
+
+Within Step 4, data protection will be explored through established approaches such as backups, replication, snapshots, and erasure coding. Erasure coding will serve as a practical storage example, including how data can be distributed and reconstructed across failure domains. We will examine its mathematics, including Reed-Solomon and Locally Repairable Codes, as well as the trade-offs involving storage efficiency, performance, reconstruction, and recovery. It is one part of a broader resilience framework, not a universal answer to every failure scenario.
+
+## Conclusion
+
+Resilience is not about assuming that nothing will fail. Failures are an inevitable part of complex systems. It is about understanding what can fail, preparing for it, and designing systems that can continue operating or recover when they do. **Resilience is not something we add after building a system. It is something we must design into it from the beginning.**
+
+## References and Bibliography
+
+**Latest Events:**
+* **[Microsoft 365 Service Disruption (Nov 12–14, 2026)](https://www.365fanatic.com/wp-content/uploads/2026/11/postincidentreport.pdf):** Microsoft. *Preliminary Post-Incident Report for Microsoft 365*. November 15, 2026. Incident IDs EX1550543 / MO1550821.
+* **[Microsoft 365 Technical Analysis](https://arstechnica.com/gadgets/2026/11/microsoft-details-how-three-problems-combined-for-a-global-outage/):** Indge, N. "Three Small Failures Combined to Take Down Microsoft 365." *Ars Technica*, November 16, 2026.
+* **[FAA Nationwide Ground Stop (Nov 13, 2026)](https://www.faa.gov/newsroom/nationwide-ground-stop-questions-and-answers):** Federal Aviation Administration. *Nationwide Ground Stop: Questions and Answers*. November 15, 2026.
+* **[Department of Transportation Update](https://www.transportation.gov/briefing-room/icymi-us-transportation-secretary-sean-p-duffy-announces-lifting-nationwide-ground):** U.S. Department of Transportation. *U.S. Transportation Secretary Sean P. Duffy Announces Lifting of Nationwide Ground Stop, Provides Updates from FAA*. November 13, 2026.
+* **[U.S. Banking Outages (Nov 16, 2026)](https://www.reuters.com/legal/transactional/downdetector-reports-outages-major-us-banks-2026-11-16/):** Reuters. "JPMorgan Says Software Bug Slows Its Transactions." November 16, 2026.
+* **[U.S. Banking Delays Overview](https://apnews.com/article/aeb4b0d6b6789c8c96bb2520454a6d1e):** Associated Press. "What to Know About the Online Banking Delays That Affected Major US Banks." November 17, 2026.
+* **[Anthropic Capacity & Availability Incident (March 2026)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm):** Anthropic, PBC. *Amendment No. 3 to Form S-1 Registration Statement*. Filed with the U.S. Securities and Exchange Commission, November 17, 2026.
+
+**Data Center Community & Environmental Context:**
+* [Annenberg Public Policy Center, University of Pennsylvania](https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/). "Opposition to Local Data Centers Rises Sharply, Annenberg Survey Finds." August 11, 2026.
+* [Pew Research Center](https://www.pewresearch.org/short-reads/2026/09/22/americans-views-of-data-centers-have-turned-more-negative/). "More Americans Now Say Data Centers Are Negative for the Environment, Energy Costs and More." September 22, 2026.
+
+**Systems Resilience & SRE Standards:**
+* Ross, R., et al. [*Developing Cyber-Resilient Systems: A Systems Security Engineering Approach to Survivable Systems*](https://csrc.nist.gov/pubs/sp/800/160/v2/r1/final). NIST Special Publication 800-160, Volume 2, Revision 1, 2021.
+* Beyer, B., Jones, C., Petoff, J., & Murphy, N. R. (Eds.). [*Site Reliability Engineering: How Google Runs Production Systems*](https://sre.google/sre-book/table-of-contents/). O’Reilly Media, 2016.
+* International Organization for Standardization. [*ISO 22301:2019: Security and resilience — Business continuity management systems — Requirements*](https://www.iso.org/standard/75106.html).
+
+**Database High Availability & Distributed Storage (Previewed for Article 2):**
+* Oracle. [*Introduction to Oracle Real Application Clusters*](https://docs.oracle.com/en/database/oracle/oracle-database/). Oracle Database Documentation.
+* Huang, C., Simitci, H., Xu, Y., Ogus, A., Calder, B., Gopalan, P., Li, J., & Yekhanin, S. "[Erasure Coding in Windows Azure Storage](https://www.usenix.org/conference/atc12/technical-sessions/presentation/huang)." *Proceedings of the 2012 USENIX Annual Technical Conference (USENIX ATC 12)*.
+* Reed, I. S., & Solomon, G. "[Polynomial Codes Over Certain Finite Fields](https://doi.org/10.1137/0108018)." *Journal of the Society for Industrial and Applied Mathematics*, 1960, 8(2), 300–304.
