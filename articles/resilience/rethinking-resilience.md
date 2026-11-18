@@ -5,7 +5,7 @@ author: "Mahamat Hissein GUIAGOUSSOU"
 role: "Developer Community Leader & Senior Cloud and AI Architect"
 date: "2026-11-17"
 canonical_url: "https://abbaguia.github.io/techpubs/articles/resilience/"
-image: "/assets/images/Rethinking_Resilience_Header_Infographic.jpg"
+image: "../../assets/images/Rethinking_Resilience_Header_Infographic.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
 
