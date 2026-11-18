@@ -5,11 +5,11 @@ author: "Mahamat Hissein GUIAGOUSSOU"
 role: "Developer Community Leader & Senior Cloud and AI Architect"
 date: "2026-11-17"
 canonical_url: "https://abbaguia.github.io/techpubs/articles/resilience/"
-image: "/assets/images/rethinking-resilience-header.jpg"
+image: "/assets/images/Rethinking_Resilience_Header_Infographic.jpg"
 tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Distributed Systems", "SRE"]
 ---
 
-![Rethinking Resilience Header Banner](../../assets/images/rethinking-resilience-header.jpg)
+![Rethinking Resilience Header Banner](../../Rethinking_Resilience_Header_Infographic.jpg)
 
 # Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?
 ### *From rapid innovation to lasting reliability.*
