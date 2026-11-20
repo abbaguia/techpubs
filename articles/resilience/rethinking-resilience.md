@@ -16,8 +16,20 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
 
-[Listen to the Mahamat Minute Podcast (Short Audio - 6 minutes)](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2Ftest-podcast-episode.mp3)
 ---
+
+<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
+  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
+    The Mahamat Minute
+  </div>
+  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
+    How Architectural Flaws Cause System Outages
+  </div>
+  <audio controls preload="metadata" style="width:100%;">
+    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F0-En_Short_How_Architectural_Flaws_Cause_System_Outages.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
 ## From Manual Provisioning to Intelligent Automation
 
