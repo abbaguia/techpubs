@@ -33,8 +33,7 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
 </div>
 
 ## Listen to All Podcast Editions (EN / FR • Short / Long)
-
-Browse the full [The Mahamat Minute Podcast Hub](https://abbaguia.github.io/techpubs/podcasts/index.html) (Short, Long, English, and French editions), or jump straight to an edition:
+Browse the full [The Mahamat Minute Podcast Hub](https://abbaguia.github.io/techpubs/podcasts/index.html) (Short, Long, English, and French editions)
 
 ## From Manual Provisioning to Intelligent Automation
 
