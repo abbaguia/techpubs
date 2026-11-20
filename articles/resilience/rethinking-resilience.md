@@ -88,7 +88,7 @@ It was a frustrating moment, but it taught me an important lesson: operational f
 
 That lesson becomes even more important in critical environments such as aviation, banking, and healthcare, where connected devices may monitor essential functions, including a patient’s vital signs.
 
-Later, while continuing to support the same Canadian wireless provider in a production setting, I was involved in further improving availability beyond the original separation of the application and database layers. That work improved component-level availability. However, an unexpected mobile content fulfillment transaction flow later revealed resilience weaknesses that could not be addressed by looking at those components individually.
+Later, while continuing to support the same Canadian wireless provider in a production setting, our team worked on strengthening availability well beyond that initial separation of the application and database layers by adding redundancy and hardening individual tiers. On paper, each layer looked resilient. However, during a real-world mobile content fulfillment transaction, where a user request had to traverse billing validation, content packaging, network delivery, and database state updates in sequence, a slowdown or state mismatch in one downstream step caused retries and bottlenecks to cascade back across the application tier. Even though no single server had "crashed," the end-to-end fulfillment flow stalled for subscribers. That experience made the gap unmistakably clear: hardening components in isolation does not protect a multi-step business transaction when dependencies interact under live load.
 
 The experience reinforced an important distinction: improving the availability of components in isolation does not automatically make the complete service resilient. The application, data, network, infrastructure, and their dependencies must work together.
 
@@ -164,7 +164,7 @@ Concerns include electricity costs, water consumption, land use, environmental i
 
 The result is a difficult balance: demand for AI computing continues to grow, while the infrastructure required to support that demand cannot always be expanded at the same pace.
 
-This is not simply a future concern. AI providers have already reported periods of constrained computing capacity, slower service, and degraded performance. In a March 2026 incident, Anthropic disclosed that a rapid increase in usage demand, combined with compute constraints in parts of its infrastructure, contributed to a service outage and periods of degraded performance.
+This is not simply a future concern. AI providers have already reported periods of constrained computing capacity, slower service, and degraded performance. In a March 2026 incident, Anthropic disclosed that a rapid increase in usage demand, combined with compute constraints in parts of its infrastructure, contributed to a service outage and periods of degraded performance. Similar operational vulnerabilities emerged during subsequent disruptions on November 17, 2026, when the National Security Agency (NSA) experienced internal network degradation tied to scheduled maintenance and software patching, while Apple suffered widespread service outages across iCloud, the App Store, and Apple Pay traced to an internal update.
 
 A service does not necessarily need to go completely offline to fail its users. When it cannot provide the capacity, response time, or availability that customers expect, it may effectively fail to meet its service requirements.
 
@@ -231,6 +231,8 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 * **[U.S. Banking Outages (Nov 16, 2026)](https://www.reuters.com/legal/transactional/downdetector-reports-outages-major-us-banks-2026-11-16/):** Reuters. "JPMorgan Says Software Bug Slows Its Transactions." November 16, 2026.
 * **[U.S. Banking Delays Overview](https://apnews.com/article/aeb4b0d6b6789c8c96bb2520454a6d1e):** Associated Press. "What to Know About the Online Banking Delays That Affected Major US Banks." November 17, 2026.
 * **[Anthropic Capacity & Availability Incident (March 2026)](https://www.sec.gov/Archives/edgar/data/2130357/000162828026074338/anthropicpbc-sx1ax3.htm):** Anthropic, PBC. *Amendment No. 3 to Form S-1 Registration Statement*. Filed with the U.S. Securities and Exchange Commission, November 17, 2026.
+* **[NSA Internal Communications Outage (Nov 17, 2026):](https://www.nsa.gov/Press-Room/Press-Releases-Statements/Press-Release-View/Article/4650245/nsa-statement-on-network-issues/)** National Security Agency. *NSA Statement on Network Issues*. November 17, 2026. (See also: Matishak, M. "[Update: Disruptions in NSA's Internal Network Caused by Software Patch, DNI Says.](https://therecord.media/nsa-net-disruptions)" *The Record*, November 17, 2026.)
+* **[Apple Services Outage (Nov 17, 2026):](https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/)** Hall, Z. "iCloud, App Store, and Other Apple Services Hit by Ongoing Outage." *9to5Mac*, November 17, 2026. (See also: Swinburne, O. "[Apple Blames Internal Update for Outage That Took Down iCloud, App Store and Apple Pay.](https://www.talkandroid.com/535506-apple-outage-icloud-app-store-apple-pay-internal-update/)" *TalkAndroid*, November 18, 2026.)
 
 **Data Center Community & Environmental Context:**
 * [Annenberg Public Policy Center, University of Pennsylvania](https://www.annenbergpublicpolicycenter.org/opposition-to-local-data-centers-rises-sharply-annenberg-survey-finds/). "Opposition to Local Data Centers Rises Sharply, Annenberg Survey Finds." August 11, 2026.
@@ -245,3 +247,18 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 * Oracle. [*Introduction to Oracle Real Application Clusters*](https://docs.oracle.com/en/database/oracle/oracle-database/). Oracle Database Documentation.
 * Huang, C., Simitci, H., Xu, Y., Ogus, A., Calder, B., Gopalan, P., Li, J., & Yekhanin, S. "[Erasure Coding in Windows Azure Storage](https://www.usenix.org/conference/atc12/technical-sessions/presentation/huang)." *Proceedings of the 2012 USENIX Annual Technical Conference (USENIX ATC 12)*.
 * Reed, I. S., & Solomon, G. "[Polynomial Codes Over Certain Finite Fields](https://doi.org/10.1137/0108018)." *Journal of the Society for Industrial and Applied Mathematics*, 1960, 8(2), 300–304.
+
+## Listen to Full Podcast
+
+<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
+  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
+    The Mahamat Minute
+  </div>
+  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
+    How Architectural Flaws Cause System Outages
+  </div>
+  <audio controls preload="metadata" style="width:100%;">
+    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F4-En_Long_How_Architectural_Flaws_Cause_System_Outages.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+</div>
