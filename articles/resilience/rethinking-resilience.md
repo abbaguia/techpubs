@@ -36,12 +36,6 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
 
 Browse the full [The Mahamat Minute Podcast Hub](https://abbaguia.github.io/techpubs/podcasts/index.html) (Short, Long, English, and French editions), or jump straight to an edition:
 
-* **English (Short):** [How Architectural Flaws Cause System Outages](https://abbaguia.github.io/techpubs/podcasts/en-short-architectural-flaws-outages.html)
-* **Français:** [La face cachée des pannes informatiques](https://abbaguia.github.io/techpubs/podcasts/fr-face-cachee-pannes-informatiques.html)
-* **English (Long):** [Why Redundant Systems Still Fail](https://abbaguia.github.io/techpubs/podcasts/en-why-redundant-systems-still-fail.html)
-* **English (Long):** [Why Redundancy Does Not Guarantee Resilience](https://abbaguia.github.io/techpubs/podcasts/en-why-redundancy-does-not-guarantee-resilience.html)
-* **English (Long):** [How Single Failures Cause Global Outages](https://abbaguia.github.io/techpubs/podcasts/en-how-single-failures-cause-global-outages.html)
-
 ## From Manual Provisioning to Intelligent Automation
 
 I remember when provisioning infrastructure for a new project could take several weeks or even a few months. Today, with Infrastructure as Code (IaC), we can provision complex environments through a largely automated process, sometimes with a single click.
