@@ -14,10 +14,9 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 # Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?
 ### Bridging the Gap Between Rapid Deployment and End-to-End Reliability. 
 
-[Listen to the Mahamat Minute Podcast](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2Ftest-podcast-episode.mp3)
-
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
 
+[Listen to the Mahamat Minute Podcast (Short Audio - 6 minutes)](https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2Ftest-podcast-episode.mp3)
 ---
 
 ## From Manual Provisioning to Intelligent Automation
