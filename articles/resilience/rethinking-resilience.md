@@ -34,14 +34,53 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
 
 ## Listen to All Podcast Editions
 
-<iframe
-  src="https://abbaguia.github.io/techpubs/podcast/index.html"
-  title="The Mahamat Minute — All Podcast Editions"
-  style="width:100%; min-height:920px; border:1px solid #334155; border-radius:12px; background:#0f172a;"
-  loading="lazy"
-></iframe>
+## Listen to All Podcast Editions (EN / FR • Short / Long)
 
-Prefer to open the full hub or share a single edition on LinkedIn? Visit the [The Mahamat Minute Audio Hub](https://abbaguia.github.io/techpubs/podcast/index.html).
+<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.25rem 0; color:#f8fafc;">
+  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.75rem;">
+    The Mahamat Minute • Complete Audio Index
+  </div>
+
+  <div style="margin-bottom:1.1rem; padding-bottom:0.9rem; border-bottom:1px solid #334155;">
+    <div style="font-weight:600;">0. How Architectural Flaws Cause System Outages (EN • Short)</div>
+    <audio controls preload="metadata" style="width:100%; margin:0.35rem 0;">
+      <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F0-En_Short_How_Architectural_Flaws_Cause_System_Outages.mp3" type="audio/mpeg" />
+    </audio>
+    <div style="font-size:0.85rem;"><a href="https://abbaguia.github.io/techpubs/podcast/en-short-architectural-flaws-outages.html" style="color:#38bdf8;">Episode Page</a></div>
+  </div>
+
+  <div style="margin-bottom:1.1rem; padding-bottom:0.9rem; border-bottom:1px solid #334155;">
+    <div style="font-weight:600;">1. La face cachée des pannes informatiques (FR • Édition française)</div>
+    <audio controls preload="metadata" style="width:100%; margin:0.35rem 0;">
+      <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F1-Fr_La_face_cach%C3%A9e_des_pannes_informatiques.mp3" type="audio/mpeg" />
+    </audio>
+    <div style="font-size:0.85rem;"><a href="https://abbaguia.github.io/techpubs/podcast/fr-face-cachee-pannes-informatiques.html" style="color:#38bdf8;">Page de l'épisode</a></div>
+  </div>
+
+  <div style="margin-bottom:1.1rem; padding-bottom:0.9rem; border-bottom:1px solid #334155;">
+    <div style="font-weight:600;">2. Why Redundant Systems Still Fail (EN • Long)</div>
+    <audio controls preload="metadata" style="width:100%; margin:0.35rem 0;">
+      <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F2-En_Why_Redundant_Systems_Still_Fail.mp3" type="audio/mpeg" />
+    </audio>
+    <div style="font-size:0.85rem;"><a href="https://abbaguia.github.io/techpubs/podcast/en-why-redundant-systems-still-fail.html" style="color:#38bdf8;">Episode Page</a></div>
+  </div>
+
+  <div style="margin-bottom:1.1rem; padding-bottom:0.9rem; border-bottom:1px solid #334155;">
+    <div style="font-weight:600;">3. Why Redundancy Does Not Guarantee Resilience (EN • Long)</div>
+    <audio controls preload="metadata" style="width:100%; margin:0.35rem 0;">
+      <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F3-En_Why_Redundancy_Does_Not_Guarantee_Resilience.mp3" type="audio/mpeg" />
+    </audio>
+    <div style="font-size:0.85rem;"><a href="https://abbaguia.github.io/techpubs/podcast/en-why-redundancy-does-not-guarantee-resilience.html" style="color:#38bdf8;">Episode Page</a></div>
+  </div>
+
+  <div>
+    <div style="font-weight:600;">4. How Single Failures Cause Global Outages (EN • Long)</div>
+    <audio controls preload="metadata" style="width:100%; margin:0.35rem 0;">
+      <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F4-En_How_Single_Failures_Cause_Global_Outages.mp3" type="audio/mpeg" />
+    </audio>
+    <div style="font-size:0.85rem;"><a href="https://abbaguia.github.io/techpubs/podcast/en-how-single-failures-cause-global-outages.html" style="color:#38bdf8;">Episode Page</a></div>
+  </div>
+</div>
 
 ## From Manual Provisioning to Intelligent Automation
 
