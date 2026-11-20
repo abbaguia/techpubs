@@ -11,6 +11,7 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 
 ![Rethinking Resilience Header Banner](../../assets/images/Rethinking_Resilience_Header_Infographic.jpg)
 
+
 # Rethinking Resilience: What Does It Take to Build Technology We Can Depend On?
 ### Bridging the Gap Between Rapid Deployment and End-to-End Reliability. 
 
