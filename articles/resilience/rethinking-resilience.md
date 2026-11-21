@@ -50,6 +50,7 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
     Browse the full The Mahamat Minute Podcast Hub (Short, Long, English, and French editions)
   </div>
 </div>
+
 ## From Manual Provisioning to Intelligent Automation
 
 I remember when provisioning infrastructure for a new project could take several weeks or even a few months. Today, with Infrastructure as Code (IaC), we can provision complex environments through a largely automated process, sometimes with a single click.
