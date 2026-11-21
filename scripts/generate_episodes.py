@@ -1,4 +1,3 @@
-python3 - <<'EOF'
 from pathlib import Path
 
 out_dir = Path("podcasts")
@@ -58,12 +57,12 @@ episodes = [
         f"{base_oci}En-Short_How_Architectural_Flaws_Cause_System_Outages_v02.mp3",
     ),
     (
-        "Fr-La_face_cachee_des_pannes_informatiques_v02",
+        "Fr-Long_La_face_cachee_des_pannes_informatiques_v02",
         "fr",
-        "FR • Édition française (v02)",
+        "FR • Long (v02)",
         "La face cachee des pannes informatiques",
         "Edition en francais sur les causes profondes des pannes systemes.",
-        f"{base_oci}Fr-La_face_cachee_des_pannes_informatiques_v02.mp3",
+        f"{base_oci}Fr-Long_La_face_cachee_des_pannes_informatiques_v02.mp3",
     ),
 ]
 
@@ -107,4 +106,3 @@ index_html = f"""<!DOCTYPE html>
 
 (out_dir / "index.html").write_text(index_html, encoding="utf-8")
 print("Wrote 3 episode HTML files and index.html to podcasts/")
-EOF
