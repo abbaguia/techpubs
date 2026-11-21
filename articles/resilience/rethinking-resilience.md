@@ -18,19 +18,21 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
 
 ---
-## Listen to Short Podcast
-
+## 🇺🇸 Listen to Short English Podcast
 <div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
   <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute
+    The Mahamat Minute • EN • Short (v02)
   </div>
   <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
     How Architectural Flaws Cause System Outages
   </div>
   <audio controls preload="metadata" style="width:100%;">
-    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F0-En_Short_How_Architectural_Flaws_Cause_System_Outages.mp3" type="audio/mpeg" />
+    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FEn-Short_How_Architectural_Flaws_Cause_System_Outages_v02.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
+  <div style="margin-top:0.75rem; font-size:0.875rem;">
+    <a href="https://abbaguia.github.io/techpubs/podcasts/En-Short_How_Architectural_Flaws_Cause_System_Outages_v02.html" style="color:#38bdf8; text-decoration:none;">Open dedicated episode page →</a>
+  </div>
 </div>
 
 ## Listen to All Podcast Editions (EN / FR • Short / Long)
@@ -248,17 +250,36 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 * Huang, C., Simitci, H., Xu, Y., Ogus, A., Calder, B., Gopalan, P., Li, J., & Yekhanin, S. "[Erasure Coding in Windows Azure Storage](https://www.usenix.org/conference/atc12/technical-sessions/presentation/huang)." *Proceedings of the 2012 USENIX Annual Technical Conference (USENIX ATC 12)*.
 * Reed, I. S., & Solomon, G. "[Polynomial Codes Over Certain Finite Fields](https://doi.org/10.1137/0108018)." *Journal of the Society for Industrial and Applied Mathematics*, 1960, 8(2), 300–304.
 
-## Listen to Full Podcast
-
+## 🇺🇸 Listen to Full English Podcast
 <div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
   <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute
+    The Mahamat Minute • EN • Long (v02)
   </div>
   <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
-    How Architectural Flaws Cause System Outages
+    Why Fast Deployments Break Cloud Infrastructure
   </div>
   <audio controls preload="metadata" style="width:100%;">
-    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2F4-En_How_Single_Failures_Cause_Global_Outages.mp3" type="audio/mpeg" />
+    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FEn-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
+  <div style="margin-top:0.75rem; font-size:0.875rem;">
+    <a href="https://abbaguia.github.io/techpubs/podcasts/En-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02.html" style="color:#38bdf8; text-decoration:none;">Open dedicated episode page →</a>
+  </div>
+</div>
+
+## 🇫🇷 Écouter en français (Version longue)
+<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
+  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
+    The Mahamat Minute • FR • Long (v02)
+  </div>
+  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
+    La Face Cachee Des Pannes Informatiques
+  </div>
+  <audio controls preload="metadata" style="width:100%;">
+    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FFr-Long_La_Face_Cachee_Des_Pannes_Informatiques_v02.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+  <div style="margin-top:0.75rem; font-size:0.875rem;">
+    <a href="https://abbaguia.github.io/techpubs/podcasts/Fr-Long_La_Face_Cachee_Des_Pannes_Informatiques_v02.html" style="color:#38bdf8; text-decoration:none;">Open dedicated episode page →</a>
+  </div>
 </div>
