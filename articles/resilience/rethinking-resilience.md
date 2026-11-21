@@ -249,7 +249,5 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 * Reed, I. S., & Solomon, G. "[Polynomial Codes Over Certain Finite Fields](https://doi.org/10.1137/0108018)." *Journal of the Society for Industrial and Applied Mathematics*, 1960, 8(2), 300–304.
 
 ## 🇺🇸 Listen to Full English Podcast
-
-
 ## 🇫🇷 Écouter en français (Version longue)
 
