@@ -249,17 +249,7 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 * Reed, I. S., & Solomon, G. "[Polynomial Codes Over Certain Finite Fields](https://doi.org/10.1137/0108018)." *Journal of the Society for Industrial and Applied Mathematics*, 1960, 8(2), 300–304.
 
 ## 🇺🇸 Listen to Full English Podcast
-<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
-  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute • 🇺🇸 EN • Long
-  </div>
-  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
-    🇺🇸 Why Fast Deployments Break Cloud Infrastructure?
-  </div>
-  <audio controls preload="metadata" style="width:100%;">
-    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FEn-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
-</div>
+
 
 ## 🇫🇷 Écouter en français (Version longue)
+
