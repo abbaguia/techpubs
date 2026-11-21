@@ -37,7 +37,19 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
 
 [Listen to All Podcast Editions (EN / FR • Short / Long)](https://abbaguia.github.io/techpubs/podcasts/index.html) — Browse the full *The Mahamat Minute* Podcast Hub (Short, Long, English, and French editions).
 
-
+<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
+  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
+    The Mahamat Minute • Podcast Hub
+  </div>
+  <div style="margin-bottom:0.35rem;">
+    <a href="https://abbaguia.github.io/techpubs/podcasts/index.html" style="font-size:1.1rem; font-weight:600; color:#38bdf8; text-decoration:none;">
+      Listen to All Podcast Editions (EN / FR • Short / Long)
+    </a>
+  </div>
+  <div style="color:#cbd5e1; font-size:0.95rem;">
+    Browse the full The Mahamat Minute Podcast Hub (Short, Long, English, and French editions)
+  </div>
+</div>
 ## From Manual Provisioning to Intelligent Automation
 
 I remember when provisioning infrastructure for a new project could take several weeks or even a few months. Today, with Infrastructure as Code (IaC), we can provision complex environments through a largely automated process, sometimes with a single click.
