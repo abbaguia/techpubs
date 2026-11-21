@@ -1,3 +1,4 @@
+python3 - <<'EOF'
 from pathlib import Path
 
 out_dir = Path("podcasts")
@@ -40,11 +41,30 @@ template = """<!DOCTYPE html>
 """
 
 episodes = [
-    ("en-short-architectural-flaws-outages", "en", "EN • Short", "How Architectural Flaws Cause System Outages", "Short edition on why architectural blind spots trigger outages.", f"{base_oci}0-En_Short_How_Architectural_Flaws_Cause_System_Outages.mp3"),
-    ("fr-face-cachee-pannes-informatiques", "fr", "FR • Édition française", "La face cachée des pannes informatiques", "Édition en français sur les causes profondes des pannes systèmes.", f"{base_oci}1-Fr_La_face_cach%C3%A9e_des_pannes_informatiques.mp3"),
-    ("en-why-redundant-systems-still-fail", "en", "EN • Long", "Why Redundant Systems Still Fail", "Why redundancy alone does not prevent end-to-end service failures.", f"{base_oci}2-En_Why_Redundant_Systems_Still_Fail.mp3"),
-    ("en-why-redundancy-does-not-guarantee-resilience", "en", "EN • Long", "Why Redundancy Does Not Guarantee Resilience", "Protecting components versus protecting the complete service.", f"{base_oci}3-En_Why_Redundancy_Does_Not_Guarantee_Resilience.mp3"),
-    ("en-how-single-failures-cause-global-outages", "en", "EN • Long", "How Single Failures Cause Global Outages", "How localized faults propagate across interconnected systems.", f"{base_oci}4-En_How_Single_Failures_Cause_Global_Outages.mp3"),
+    (
+        "En-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02",
+        "en",
+        "EN • Long (v02)",
+        "Why Fast Deployments Break Cloud Infrastructure",
+        "Long episode on why fast deployments and redundancy still leave cloud infrastructure vulnerable.",
+        f"{base_oci}En-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02.mp3",
+    ),
+    (
+        "En-Short_How_Architectural_Flaws_Cause_System_Outages_v02",
+        "en",
+        "EN • Short (v02)",
+        "How Architectural Flaws Cause System Outages",
+        "Short edition on why architectural blind spots trigger outages.",
+        f"{base_oci}En-Short_How_Architectural_Flaws_Cause_System_Outages_v02.mp3",
+    ),
+    (
+        "Fr-La_face_cachee_des_pannes_informatiques_v02",
+        "fr",
+        "FR • Édition française (v02)",
+        "La face cachee des pannes informatiques",
+        "Edition en francais sur les causes profondes des pannes systemes.",
+        f"{base_oci}Fr-La_face_cachee_des_pannes_informatiques_v02.mp3",
+    ),
 ]
 
 for slug, lang, tag, title, summary, mp3_url in episodes:
@@ -52,4 +72,39 @@ for slug, lang, tag, title, summary, mp3_url in episodes:
         template.format(lang=lang, tag=tag, title=title, summary=summary, mp3_url=mp3_url),
         encoding="utf-8",
     )
-print("Wrote 5 episode HTML files to podcasts/")
+
+index_items = "\n".join(
+    f'      <li><a href="./{slug}.html">[{tag}] {title}</a> — {summary}</li>'
+    for slug, lang, tag, title, summary, mp3_url in episodes
+)
+
+index_html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Mahamat Minute — Podcast Hub</title>
+  <style>
+    body {{ font-family: system-ui, -apple-system, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 2rem 1rem; display: flex; justify-content: center; }}
+    .card {{ background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 1.75rem; max-width: 640px; width: 100%; }}
+    .tag {{ font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; color: #38bdf8; margin-bottom: 0.4rem; }}
+    h1 {{ font-size: 1.35rem; margin: 0 0 0.75rem 0; }}
+    ul {{ padding-left: 1.25rem; line-height: 1.7; color: #cbd5e1; }}
+    a {{ color: #38bdf8; text-decoration: none; }}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="tag">The Mahamat Minute • Podcast Hub</div>
+    <h1>Podcast Editions</h1>
+    <ul>
+{index_items}
+    </ul>
+  </main>
+</body>
+</html>
+"""
+
+(out_dir / "index.html").write_text(index_html, encoding="utf-8")
+print("Wrote 3 episode HTML files and index.html to podcasts/")
+EOF
