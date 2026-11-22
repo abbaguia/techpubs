@@ -18,7 +18,7 @@ tags: ["Resilience Engineering", "Cloud Architecture", "AI Infrastructure", "Dis
 By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud and AI Architect | [LinkedIn Profile](https://www.linkedin.com/in/mahamathisseinguiagoussou/)
 
 ---
-## 🇺🇸 Listen to Short English Podcast
+## 🇺🇸 Listen to the Podcast
 🎧 Short on time? Hear the 6-minute teaser below, read the article, or jump to the end to explore all editions (including full-length English & French) in the Podcast Hub.
 
 <div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
