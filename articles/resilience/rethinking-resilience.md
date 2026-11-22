@@ -19,6 +19,7 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
 
 ---
 ## 🇺🇸 Listen to Short English Podcast
+🎧 Short on time? Hear the 6-minute teaser below, read the article, or jump to the end to explore all editions (including full-length English & French) in the Podcast Hub.
 
 <div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
   <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
@@ -31,20 +32,6 @@ By **Mahamat Hissein GUIAGOUSSOU** | Developer Community Leader & Senior Cloud a
     <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FEn-Short_How_Architectural_Flaws_Cause_System_Outages_v02.mp3" type="audio/mpeg" />
     Your browser does not support the audio element.
   </audio>
-</div>
-
-<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
-  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute • Podcast Hub
-  </div>
-  <div style="margin-bottom:0.35rem;">
-    <a href="https://abbaguia.github.io/techpubs/podcasts/index.html" style="font-size:1.1rem; font-weight:600; color:#38bdf8; text-decoration:none;">
-      Listen to All Podcast Editions (EN / FR • Short / Long)
-    </a>
-  </div>
-  <div style="color:#cbd5e1; font-size:0.95rem;">
-    Browse the full The Mahamat Minute Podcast Hub (Short, Long, English, and French editions)
-  </div>
 </div>
 
 ## From Manual Provisioning to Intelligent Automation
@@ -264,28 +251,14 @@ Resilience is not about assuming that nothing will fail. Failures are an inevita
 
 <div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
   <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute • 🇺🇸 EN • Long
+    The Mahamat Minute • Podcast Hub
   </div>
-  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
-    🇺🇸 Why Fast Deployments Break Cloud Infrastructure?
+  <div style="margin-bottom:0.35rem;">
+    <a href="https://abbaguia.github.io/techpubs/podcasts/index.html" style="font-size:1.1rem; font-weight:600; color:#38bdf8; text-decoration:none;">
+      Listen to All Podcast Editions (EN / FR • Short / Long)
+    </a>
   </div>
-  <audio controls preload="metadata" style="width:100%;">
-    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FEn-Long_Why_Fast_Deployments_Break_Cloud_Infrastructure_v02.mp3" type="audio/mpeg" />
-    Your browser does not support the audio element.
-  </audio>
-</div>
-
-## 🇫🇷 Écouter en français (version complete)
-
-<div style="background:#1e293b; border:1px solid #334155; border-radius:12px; padding:1.25rem; margin:1.5rem 0; color:#f8fafc;">
-  <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:0.08em; color:#38bdf8; margin-bottom:0.25rem;">
-    The Mahamat Minute • 🇫🇷 FR • Long
+  <div style="color:#cbd5e1; font-size:0.95rem;">
+    Browse the full The Mahamat Minute Podcast Hub (Short, Long, English, and French editions)
   </div>
-  <div style="font-size:1.1rem; font-weight:600; margin-bottom:0.5rem;">
-    🇫🇷 La Face Cachée Des Pannes Informatiques
-  </div>
-  <audio controls preload="metadata" style="width:100%;">
-    <source src="https://objectstorage.us-ashburn-1.oraclecloud.com/n/idmpn7naypvj/b/mmpodcast/o/audio%2FFr-Long_La_Face_Cachee_Des_Pannes_Informatiques_v02.mp3" type="audio/mpeg" />
-    Your browser were not support the audio element.
-  </audio>
 </div>
